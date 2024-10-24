@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style4.css">
+    <script src="https://kit.fontawesome.com/cb1c7e0c7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Forecast</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="getWeather()">Get Weather</button>
+        <a id="sunIcon" class="themeToggle"><i class="fa-solid fa-sun"></i></a>
+        <a id="moonIcon" class="themeToggle" style="display: none;"><i class="fa-solid fa-moon"></i></a>
+        <div id="weatherDisplay">
+            <!-- Weather details -->
+        </div>
+        <div id="currentloca">
+            <button id="currentLocationBtn" class="btn btn-info mt-3">Get Current Location Weather</button>
+        </div>
+    </div>
+    <script src="script4.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.themeToggle {
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 10px;
+    padding: 1rem;
+}
+
+/* Light Theme (default) */
+.container { 
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark Theme */
+.dark-mode {
+    background-color: #111439;
+    color: powderblue;
+    box-shadow: 0px 4px 8px rgba(248, 247, 247, 0.637);
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weatherDisplay {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
